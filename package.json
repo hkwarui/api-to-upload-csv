@@ -1,0 +1,31 @@
+{
+  "name": "api-upload-csv",
+  "version": "1.0.0",
+  "description": "Node / express Api  to upload CSV file to database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start:dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CSV",
+    "NODE",
+    "EXPRESS",
+    "API",
+    "IMPORT"
+  ],
+  "author": "Henry Warui (https://github.com/hkwarui)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "mariadb": "^2.5.4",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
